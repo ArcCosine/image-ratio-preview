@@ -1,11 +1,19 @@
 .figure {
   width: 200px;
-  aspect-ratio: 16 / 9;
   background-color: #efefef;
-  margin-bottom: 1em;
-  margin-right: 1em;
 }
-img {
+.figure img {
   width: 100%;
-  height: auto;
+  object-fit:contain;
+}
+.figure img.square {
+  aspect-ratio: 1;
+}
+
+.figure img.wide {
+  aspect-ratio: 16 / 9;
+}
+
+.figure img.standard {
+  aspect-ratio: 4 / 3;
 }
