@@ -1,0 +1,11 @@
+.figure {
+  width: 200px;
+  aspect-ratio: 16 / 9;
+  background-color: #efefef;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+img {
+  width: 100%;
+  height: auto;
+}
